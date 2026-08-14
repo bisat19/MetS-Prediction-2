@@ -11,9 +11,9 @@ warnings.filterwarnings("ignore")
 MODEL_DIR = Path(__file__).resolve().parent / "model_deployments"
 FEATURE_ORDER = [
     "TyG_Index",
-    "Jenis_Kelamin",
-    "newhdl",
     "Waist Measurement",
+    "newhdl",
+    "Jenis_Kelamin",
     "Systolic",
     "Weight",
     "newtg",
